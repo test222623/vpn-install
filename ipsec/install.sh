@@ -60,8 +60,6 @@ echo
 echo "Starting strongSwan and xl2tp..."
 service xl2tpd restart
 service strongswan restart
-service strongswan  enable
-service  xl2tpd  enable
 
 echo
 echo "Installation script has been completed!"
