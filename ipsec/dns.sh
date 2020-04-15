@@ -8,7 +8,7 @@ if [[ ! -e $PPPCONFIG ]] || [[ ! -r $PPPCONFIG ]] || [[ ! -w $PPPCONFIG ]]; then
     exit 1
 fi
 
-DEFAULTDNS1="8.8.8.8"
+DEFAULTDNS1="114.114.114.114"
 DEFAULTDNS2="8.8.4.4"
 
 read -p "Preffered DNS resolver #1: " -e -i $DEFAULTDNS1 DNS1
